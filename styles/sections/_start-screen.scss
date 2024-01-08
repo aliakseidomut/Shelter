@@ -1,0 +1,98 @@
+#start-screen{
+    background-image: url("../IMG/start-screen-gradient-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container{
+        max-width: 1225px;
+        @media(max-width:768px){
+            max-width: 727px;
+        }
+        @media(max-width:320px){
+            max-width: 300px;
+        }
+    }
+}
+
+#start-screen-content{
+    margin-top: 55px;
+    @media(max-width:768px){
+        margin-top: 25px;
+    }
+    
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        
+        @media(max-width:1204px){
+            justify-content: center;
+        }
+    }
+}
+
+.start-screen-content__text-content{
+    max-width: 460px;
+    padding-bottom: 95px;
+    @media(max-width:320px){
+        padding-bottom: 106px;
+    }
+}
+
+.start-screen-content__h{
+    max-width: 310px;
+    margin-bottom: 42px;
+    @media(max-width:320px){
+        max-width: 230px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+
+.start-screen-content__p{
+    color: $color-dark-s;
+    line-height: 24px;
+    margin-bottom: 57px;
+    
+    @media(max-width:768px){
+        margin-bottom: 42px;
+    }
+
+    @media(max-width:320px){
+        text-align: center;
+        margin-bottom: 44px;
+    }
+}
+
+.start-screen-content__img{
+    margin-left: 27px;
+    @media(max-width:768px){
+        margin: 7px 0 0 130px;
+        max-width: 569px;
+        height: 593px;
+    }
+    @media(max-width:767px){
+        max-width: 260px;
+        height: 271.77px;
+        margin: 0 0 0 33px;
+    }
+    @media(max-width:320px){
+        max-width: 260px;
+        height: 271.77px;
+        margin: 0 0 0 33px;
+    }
+}
+
+.start-screen-content__button{
+    margin-top: 200px;
+    @media(max-width:768px){
+        display: block;
+        margin: 0 auto;
+        max-width: 208px;
+    }
+}
